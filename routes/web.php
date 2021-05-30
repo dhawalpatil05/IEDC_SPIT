@@ -20,6 +20,8 @@ use Illuminate\Support\Facades\Route;
 Route::view('/','mainh');
 Route::view('/iedcportal','iedcportal');
 Route::view('/iedc','iedc')->name('iedc');
+Route::view('/judge_registration','judge_registration')->name('judge_registration');
+
 Route::view('/login','login');
 Route::view('/loginacc','loginacc');
 Route::view('/posts','posts');

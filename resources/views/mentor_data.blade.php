@@ -186,7 +186,7 @@
 
 
 <table class="table">
-  <thead class="table-danger">
+  <thead class="table table-danger table-striped">
     <tr>
       <th scope="col">Mentor id</th>
       <th scope="col">Mentor_FullName</th>

@@ -99,7 +99,7 @@
 
              
 
-                    <h2 class="page-title">Idea Registration Form</h2>
+                    <h2 class="page-title">Judge Registration Form</h2>
                     <hr>
 
                     <div class="card">
@@ -112,251 +112,62 @@
                   
 
 
-                                
-                                <p class="menu m-4">Applicants Information</p>
-                                <div id="dynamic_field">
-                                    <div class="row ml-5 mr-5">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>UCID of Applicant</label>
-                                                <input type="text" class="form-control" name="UCID" id="UCID" >
-                                            </div>
-                                            <div class="form-group">
-                                                <label>Email of Applicant</label>
-                                                <input type="email" class="form-control" name="Email_of_applicant">
-                                            </div>
-                                            <div class="form-group">
-                                            <label class="control-label">Department of Applicant <span class="redstar">*</span></label>
-                                
-                                            <select name ="Department_of_Applicant" class="form-control" >
-                                                <option value="COMPS">COMPS</option>
-                                                <option value="IT">IT</option>
-                                                <option value="ETRX">ETRX</option>
-                                                <option value="EXTC">EXTC</option>
-                                                <option value="MCA">MCA</option>
-                                                <option value="ASH">ASH</option>
-                                            </select>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="control-label">Year of Applicant <span class="redstar">*</span></label>
-                                
-                                            <select name ="Year_of_Applicant" class="form-control" >
-                                                <option value="1">1st</option>
-                                                <option value="2">2nd</option>
-                                                <option value="3">3rd</option>
-                                                <option value="4">4th</option>
-                                            </select>
-                                        </div>
-                                        </div>
-
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Name of Applicant</label>
-                                                <input type="text" class="form-control" name="Name_of_Applicant">
-                                            </div>
-                                            <div class="form-group">
-                                                <label>Mobile No. of Applicant</label>
-                                                <input type="text" class="form-control" name="Mb_no_of_applicant">
-                                            </div>
-                                        </div>
-                                    <div class="container"><hr></div>
-                                    </div>
-                                
-                                    <div class="row ml-5 mr-5"  id="applicantRow2" style="display:none;">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>UCID of Appli.2</label>
-                                                <input type="text" class="form-control" name="UCID2" id="ucid2" >
-                                            </div>
-                                            <div class="form-group">
-                                                <label>Email of Appli.2</label>
-                                                <input type="email" class="form-control" name="Email_of_applicant2">
-                                            </div>
-                                            <div class="form-group">
-                                            <label class="control-label">Department of Applicant2 <span class="redstar">*</span></label>
-                                
-                                            <select name ="Department_of_Applicant2" class="form-control">
-                                                <option value="COMPS">COMPS</option>
-                                                <option value="IT">IT</option>
-                                                <option value="ETRX">ETRX</option>
-                                                <option value="EXTC">EXTC</option>
-                                                <option value="MCA">MCA</option>
-                                                <option value="ASH">ASH</option>
-                                            </select>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="control-label">Year of Applicant2 <span class="redstar">*</span></label>
-                                
-                                            <select name ="Year_of_Applicant2" class="form-control" >
-                                                <option value="1">1st</option>
-                                                <option value="2">2nd</option>
-                                                <option value="3">3rd</option>
-                                                <option value="4">4th</option>
-                                            </select>
-                                        </div>
-                                        </div>
-
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Name of Applicant:2</label>
-                                                <input type="text" class="form-control" name="Name_of_Applicant2">
-                                            </div>
-                                            <div class="form-group">
-                                                <label>Mb. No. of Applicant:2</label>
-                                                <input type="text" class="form-control" name="Mb_no_of_applicant2">
-                                            </div>
-                                        </div>
-                                    <div class="container"><hr></div>
-                                    </div>
-
-                                    <div class="row ml-5 mr-5" id="applicantRow3" style="display:none;">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>UCID of Applicant:3</label>
-                                                <input type="text" class="form-control" name="UCID3" id="ucid3" >
-                                            </div>
-                                            <div class="form-group">
-                                                <label>Email of Applicant:3</label>
-                                                <input type="email" class="form-control" name="Email_of_applicant3">
-                                            </div>
-                                            <div class="form-group">
-                                            <label class="control-label">Department of Applicant3 <span class="redstar">*</span></label>
-                                
-                                            <select name ="Department_of_Applicant3" class="form-control">
-                                                <option value="COMPS">COMPS</option>
-                                                <option value="IT">IT</option>
-                                                <option value="ETRX">ETRX</option>
-                                                <option value="EXTC">EXTC</option>
-                                                <option value="MCA">MCA</option>
-                                                <option value="ASH">ASH</option>
-                                            </select>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="control-label">Year of Applicant3 <span class="redstar">*</span></label>
-                                
-                                            <select name ="Year_of_Applicant3" class="form-control" >
-                                                <option value="1">1st</option>
-                                                <option value="2">2nd</option>
-                                                <option value="3">3rd</option>
-                                                <option value="4">4th</option>
-                                            </select>
-                                        </div>
-                                        </div>
-
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Name of Applicant:3</label>
-                                                <input type="text" class="form-control" name="Name_of_Applicant3">
-                                            </div>
-                                            <div class="form-group">
-                                                <label>Mb. No. of Applicant:3</label>
-                                                <input type="text" class="form-control" name="Mb_no_of_applicant3">
-                                            </div>
-                                        </div>
-                                        <div class="container"><hr></div>
-                                    </div>
-
-                                    <div class="row ml-5 mr-5" id="applicantRow4" style="display:none;">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>UCID of Applicant:4</label>
-                                                <input type="text" class="form-control ucid" name="UCID4" id="ucid4" >
-                                            </div>
-                                            <div class="form-group">
-                                                <label>Email of Applicant:4</label>
-                                                <input type="email" class="form-control" name="Email_of_applicant4">
-                                            </div>
-                                            <div class="form-group">
-                                            <label class="control-label">Department of Applicant4 <span class="redstar">*</span></label>
-                                
-                                            <select name ="Department_of_Applicant4" class="form-control">
-                                                <option value="COMPS">COMPS</option>
-                                                <option value="IT">IT</option>
-                                                <option value="ETRX">ETRX</option>
-                                                <option value="EXTC">EXTC</option>
-                                                <option value="MCA">MCA</option>
-                                                <option value="ASH">ASH</option>
-                                            </select>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="control-label">Year of Applicant4 <span class="redstar">*</span></label>
-                                
-                                            <select name ="Year_of_Applicant4" class="form-control" >
-                                                <option value="1">1st</option>
-                                                <option value="2">2nd</option>
-                                                <option value="3">3rd</option>
-                                                <option value="4">4th</option>
-                                            </select>
-                                        </div>
-                                        </div>
-
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Name of Applicant:4</label>
-                                                <input type="text" class="form-control" name="Name_of_Applicant4">
-                                            </div>
-                                            <div class="form-group">
-                                                <label>Mb. No. of Applicant:4</label>
-                                                <input type="text" class="form-control" name="Mb_no_of_applicant4">
-                                            </div>
-                                        </div>  
-                                    </div> 
-                                    <button type="button" onclick="displayApplicant()" class="btn btn-primary btn-sm addApplicantButton">Add Applicant</button>
-                                </div>
-
-                                <div class="container"><hr></div>
 
                                 
-                                <p class="menu m-4">Idea</p>
+                                <p class="menu m-4">Judge</p>
                                 <div class="row ml-5 mr-5">
                                     <div class="col-md-6 col-sm-2">
                                         <div class="form-group">
-                                            <label>Title
+                                            <label>FullName
+                                                <span class="redstar">*</span>
+                                            </label>
+                                            <input type="text" class="form-control" name="Idea_Title">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Institute Name
                                                 <span class="redstar">*</span>
                                             </label>
                                             <input type="text" class="form-control" name="Idea_Title">
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                <div class="form-group">
-                                <label>Idea Domain</label>
-                                    <select name ="Idea_Domain" class="form-control">
-                                        <option value="COMS">COMS</option>
-                                            <option value="AI">AI</option>
-                                        <option value="WEB">WEB</option>
-                                    </select>
-                                </div>
+                                    <div class="form-group">
+                                            <label>Expertise
+                                                <span class="redstar">*</span>
+                                            </label>
+                                            <input type="text" class="form-control" name="Idea_Title">
+                                        </div>
+                                       
                             </div>
-                                    <div class="col-md-12">
-                                        <label>Idea Discription</label><br>
-                                        <textarea id="Idea_desc" cols="150" rows="4" name="Idea_desc"></textarea>
-                                    </div>
-
-                                    <div class="col-md-12">
-                                        <label>Idea Outcome </label><br>
-                                        <textarea id="Idea_out" cols="150" rows="4" name="Idea_out"></textarea>
-                                    </div>
+                                    
 
                                 </div>
-
                                 <div class="container"><hr></div>
+          
+                                <div class="row ml-5 mr-5">
+                                    <div class="col-md-6 col-sm-2">
+                                        <div class="form-group">
+                                            <label>User_name
+                                                <span class="redstar">*</span>
+                                            </label>
+                                            <input type="text" class="form-control" name="Idea_Title">
+                                        </div>
+                                      
+                                    </div>
+                                    <div class="col-md-6">
+                                    <div class="form-group">
+                                            <label>Password
+                                                <span class="redstar">*</span>
+                                            </label>
+                                            <input type="text" class="form-control" name="Idea_Title">
+                                        </div>
+                 
 
 
 
 
                                 
-                                <p class="menu m-4">Upload</p>
-                                <div class="row ml-5 mr-5">
-                                    <div class="col-md-4">
-                                        <div class="form-group">
-                                            <label for="ucid"><span class="redstar">*</span> File Formar(.docx,pdf,jpeg,Mp4)
-                                            </label>
-                                            <input type="file" class="form-control" name="file">
-                                        </div>
+                               
                                     </div>
 
                                     
@@ -375,7 +186,7 @@
                                         <input type="submit" class="bttn" >
                                     </div>
 </div>
-                            ...
+                    
                             </form>
                         </div>
                     </div>

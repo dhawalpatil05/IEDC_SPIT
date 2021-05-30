@@ -290,7 +290,7 @@ Dont have an account yet Get Registered here
           <h2 align="center">  </h2>
 <br />
 <a href="/judge_registration">
-					<input type="submit" class="button" value="judje registration">
+					<input type="button" class="button" value="judje registration">
 </a>
 				</form><!--.login-form-->
 		

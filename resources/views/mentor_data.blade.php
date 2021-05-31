@@ -40,7 +40,6 @@
 </div>
 <br>
 
-
 <div>
 <h3>Add_Idea</h3>
 <form action="{{route('add_ment_idea')}}" method="post" enctype="multipart/form-data">

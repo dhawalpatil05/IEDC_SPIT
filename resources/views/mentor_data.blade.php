@@ -1,64 +1,3 @@
-<html>
-<body>
-<div>
-
-</div><br>
-
-<div>
-
-</div>
-<br>
-
-
-<div>
-<h3>Add_Idea</h3>
-<form action="{{route('add_ment_idea')}}" method="post" enctype="multipart/form-data">
-@csrf
-<label>Enter Mentor_id</label><br>
-<input type="text" name="mentor_id"><br>
-<label>Enter Idea_id</label><br>
-<input type="text" name="idea_ment_id"><br>
-<input type="submit" name="ment_id_sub">
-</form>
-</div><br>
-
-<div>
-<h3>Delete_Mentor</h3>
-<form action="{{route('delete_ment')}}" method="post" enctype="multipart/form-data">
-@csrf
-<label>Enter Mentor_id</label><br>
-<input type="text" name="mentor_id"><br>
-<input type="submit" name="ment_id_sub">
-</form>
-</div>
-
-<div>
-<h3>Add_Mentor</h3>
-<form action="{{route('add_mentor')}}" method="post" enctype="multipart/form-data">
-@csrf
-<label>Enter Mentor_name</label><br>
-<input type="text" name="mentor_name"><br>
-
-<label>Enter Mentor_dept</label><br>
-<input type="text" name="mentor_dept"><br>
-
-<label>Enter Mentor_username</label><br>
-<input type="text" name="mentor_username"><br>
-
-<label>Enter Mentor_pass</label><br>
-<input type="text" name="mentor_pass"><br>
-
-<label>Enter Idea_id</label><br>
-<input type="text" name="mentor_idea_id"><br>
-
-<input type="submit" name="ment_id_sub">
-</form>
-</div>
-
-
-
-</body>
-</html>
 
 
 
@@ -162,22 +101,16 @@
 
              
 
-                    <h2 class="page-title">Mentor Data</h2>
-                    <hr>
+                    <!-- <h2 class="page-title">Mentor Data</h2> -->
+                  
 
                     <div class="card">
                         <div class="card-header"></div>
                             <form  action="{{route('insert')}}" method="post" enctype="multipart/form-data">
                                 @csrf
                                 <input type="hidden" name="_token" value="dWbESgNQf2KMYaAO5otzXp0bJDLNR1axvj4DRrjp">                                
-                                
-
-                  
-
-
-
-                                
-                                <p class="menu m-4">Judge</p>
+                                <div align="center">
+                                <p class="menu m-4">Mentor detail</p></div>
                                 <div class="row ml-5 mr-5">
                                     <div class="col-md-12 col-sm-2">
                                         
@@ -239,38 +172,76 @@
                                   </div>
                                     <div class="container"><hr></div>
 
-                                                       
+                                    <div align="center">                
                                 <p class="menu m-4">Add_idea</p>
                                 <div class="row ml-5 mr-5">
                                     <div class="col-md-12 col-sm-2">
                                     <form action="{{route('add_ment_idea')}}" method="post" enctype="multipart/form-data">
 @csrf
-<label>Enter Mentor_id
+
+<label><b>Enter Mentor_id</b>
 <span class="redstar">*</span>
 </label><br>
 
 <input type="text" name="mentor_id"><br>
-<label>Enter Idea_id
+<label><b>Enter Idea_id</b>
 <span class="redstar">*</span>
 
 </label><br>
 <input type="text" name="idea_ment_id"><br>
+<br>
 <input type="submit" name="ment_id_sub" class="bttn">
+</div>
 </form>
                                   
                                 </div>
+                                <div class="container"><hr></div>
+                                <div>
+                                <p class="menu m-4">Delete_Mentor</p>
+
+<form action="{{route('delete_ment')}}" method="post" enctype="multipart/form-data">
+@csrf
+<label><b>Enter Mentor_id</b></label><br>
+<input type="text" name="mentor_id">
+<br>
+<br>
+<input type="submit" name="ment_id_sub" class="bttn">
+</form>
+</div>
+
+<div class="container"><hr></div>
+
+
+<div>
+
+<p class="menu m-4">Add_Mentor</p>
+<form action="{{route('add_mentor')}}" method="post" enctype="multipart/form-data">
+@csrf
+<label><b>Enter Mentor_name</label><br>
+<input type="text" name="mentor_name"><br>
+
+<label>Enter Mentor_dept</label><br>
+<input type="text" name="mentor_dept"><br>
+
+<label>Enter Mentor_username</label><br>
+<input type="text" name="mentor_username"><br>
+
+<label>Enter Mentor_pass</label><br>
+<input type="text" name="mentor_pass"><br>
+
+<label>Enter Idea_id</b></label><br>
+<input type="text" name="mentor_idea_id"><br>
+<br>
+<input type="submit" name="ment_id_sub" class="bttn">
+
+</form>
+</div>
+<br>
 
                                 <!-- Sanction and Submit Button -->
                         </div>
                                     
-                                    <div align="center">
-
-
-                                    <div class="container mb-4 mt-4">
-                                        <button class="bttn">Cancel</button>
-                                        <input type="submit" class="bttn" >
-                                    </div>
-</div>
+                                    <div align="center"></div>
                     
                             </form>
                         </div>
